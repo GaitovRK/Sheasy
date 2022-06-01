@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3E0BB62843E1F10032A334 /* API Caller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E0BB52843E1F10032A334 /* API Caller.swift */; };
 		5C47D420282F8C1100B22F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47D41F282F8C1100B22F9E /* AppDelegate.swift */; };
 		5C47D422282F8C1100B22F9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47D421282F8C1100B22F9E /* SceneDelegate.swift */; };
 		5C47D424282F8C1100B22F9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47D423282F8C1100B22F9E /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		5C47D446282F8C1200B22F9E /* SheasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47D445282F8C1200B22F9E /* SheasyUITestsLaunchTests.swift */; };
 		5C8A5DFA283BDDA700E536F4 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A5DF8283BDDA700E536F4 /* MyCollectionViewCell.swift */; };
 		5C8A5DFB283BDDA700E536F4 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C8A5DF9283BDDA700E536F4 /* MyCollectionViewCell.xib */; };
-		5C8A5DFD283CF69000E536F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A5DFC283CF69000E536F4 /* LoginViewController.swift */; };
 		5C8A5E00283DEDB600E536F4 /* TapCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A5DFE283DEDB600E536F4 /* TapCellViewController.swift */; };
 		5C8A5E01283DEDB600E536F4 /* TapCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C8A5DFF283DEDB600E536F4 /* TapCellViewController.xib */; };
 		5CAB61F728436CED00D33A1D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB61F628436CED00D33A1D /* Model.swift */; };
@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C3E0BB52843E1F10032A334 /* API Caller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Caller.swift"; sourceTree = "<group>"; };
 		5C47D41C282F8C1100B22F9E /* Sheasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sheasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C47D41F282F8C1100B22F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C47D421282F8C1100B22F9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		5C47D445282F8C1200B22F9E /* SheasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C8A5DF8283BDDA700E536F4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C8A5DF9283BDDA700E536F4 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
-		5C8A5DFC283CF69000E536F4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C8A5DFE283DEDB600E536F4 /* TapCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCellViewController.swift; sourceTree = "<group>"; };
 		5C8A5DFF283DEDB600E536F4 /* TapCellViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TapCellViewController.xib; sourceTree = "<group>"; };
 		5CAB61F628436CED00D33A1D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -149,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				5CAB61F628436CED00D33A1D /* Model.swift */,
+				5C3E0BB52843E1F10032A334 /* API Caller.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,7 +161,6 @@
 				5CD8F025283819640045F19B /* MainMenu.swift */,
 				5C8A5DF8283BDDA700E536F4 /* MyCollectionViewCell.swift */,
 				5C8A5DF9283BDDA700E536F4 /* MyCollectionViewCell.xib */,
-				5C8A5DFC283CF69000E536F4 /* LoginViewController.swift */,
 				5C8A5DFE283DEDB600E536F4 /* TapCellViewController.swift */,
 				5C8A5DFF283DEDB600E536F4 /* TapCellViewController.xib */,
 			);
@@ -300,8 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3E0BB62843E1F10032A334 /* API Caller.swift in Sources */,
 				5CAB61F728436CED00D33A1D /* Model.swift in Sources */,
-				5C8A5DFD283CF69000E536F4 /* LoginViewController.swift in Sources */,
 				5CD8F026283819640045F19B /* MainMenu.swift in Sources */,
 				5C8A5E00283DEDB600E536F4 /* TapCellViewController.swift in Sources */,
 				5C47D42A282F8C1100B22F9E /* Sheasy.xcdatamodeld in Sources */,
