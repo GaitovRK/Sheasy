@@ -36,23 +36,6 @@
 		5CEFF654284FE88000DE4E0A /* RestrictionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFF653284FE88000DE4E0A /* RestrictionsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5C47D436282F8C1200B22F9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C47D414282F8C1100B22F9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C47D41B282F8C1100B22F9E;
-			remoteInfo = Sheasy;
-		};
-		5C47D440282F8C1200B22F9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C47D414282F8C1100B22F9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C47D41B282F8C1100B22F9E;
-			remoteInfo = Sheasy;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		5C3E0BB52843E1F10032A334 /* API Caller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Caller.swift"; sourceTree = "<group>"; };
 		5C47D41C282F8C1100B22F9E /* Sheasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sheasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +45,6 @@
 		5C47D42B282F8C1100B22F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C47D42E282F8C1100B22F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C47D430282F8C1100B22F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C47D435282F8C1200B22F9E /* SheasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C47D43F282F8C1200B22F9E /* SheasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C84F7D0284C9EE30025DA75 /* RecommendedRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedRecipes.swift; sourceTree = "<group>"; };
 		5C8A5DF8283BDDA700E536F4 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C99716A284F0F4C00B65040 /* RecipeSerchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSerchTableViewCell.swift; sourceTree = "<group>"; };
@@ -95,20 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C47D432282F8C1200B22F9E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C47D43C282F8C1200B22F9E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,8 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				5C47D41C282F8C1100B22F9E /* Sheasy.app */,
-				5C47D435282F8C1200B22F9E /* SheasyTests.xctest */,
-				5C47D43F282F8C1200B22F9E /* SheasyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,42 +206,6 @@
 			productReference = 5C47D41C282F8C1100B22F9E /* Sheasy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C47D434282F8C1200B22F9E /* SheasyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C47D44C282F8C1200B22F9E /* Build configuration list for PBXNativeTarget "SheasyTests" */;
-			buildPhases = (
-				5C47D431282F8C1200B22F9E /* Sources */,
-				5C47D432282F8C1200B22F9E /* Frameworks */,
-				5C47D433282F8C1200B22F9E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5C47D437282F8C1200B22F9E /* PBXTargetDependency */,
-			);
-			name = SheasyTests;
-			productName = SheasyTests;
-			productReference = 5C47D435282F8C1200B22F9E /* SheasyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5C47D43E282F8C1200B22F9E /* SheasyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C47D44F282F8C1200B22F9E /* Build configuration list for PBXNativeTarget "SheasyUITests" */;
-			buildPhases = (
-				5C47D43B282F8C1200B22F9E /* Sources */,
-				5C47D43C282F8C1200B22F9E /* Frameworks */,
-				5C47D43D282F8C1200B22F9E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5C47D441282F8C1200B22F9E /* PBXTargetDependency */,
-			);
-			name = SheasyUITests;
-			productName = SheasyUITests;
-			productReference = 5C47D43F282F8C1200B22F9E /* SheasyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,14 +218,6 @@
 				TargetAttributes = {
 					5C47D41B282F8C1100B22F9E = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					5C47D434282F8C1200B22F9E = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 5C47D41B282F8C1100B22F9E;
-					};
-					5C47D43E282F8C1200B22F9E = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 5C47D41B282F8C1100B22F9E;
 					};
 				};
 			};
@@ -314,8 +235,6 @@
 			projectRoot = "";
 			targets = (
 				5C47D41B282F8C1100B22F9E /* Sheasy */,
-				5C47D434282F8C1200B22F9E /* SheasyTests */,
-				5C47D43E282F8C1200B22F9E /* SheasyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,20 +250,6 @@
 				5CA6ECFD28506B070061B270 /* RecommendationResultCell.xib in Resources */,
 				5CA6ECFF28506B2E0061B270 /* SearchRecipesResultCell.xib in Resources */,
 				5C47D42C282F8C1100B22F9E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C47D433282F8C1200B22F9E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C47D43D282F8C1200B22F9E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,34 +284,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C47D431282F8C1200B22F9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C47D43B282F8C1200B22F9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5C47D437282F8C1200B22F9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C47D41B282F8C1100B22F9E /* Sheasy */;
-			targetProxy = 5C47D436282F8C1200B22F9E /* PBXContainerItemProxy */;
-		};
-		5C47D441282F8C1200B22F9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C47D41B282F8C1100B22F9E /* Sheasy */;
-			targetProxy = 5C47D440282F8C1200B22F9E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C47D42D282F8C1100B22F9E /* LaunchScreen.storyboard */ = {
@@ -549,6 +427,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,6 +456,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -589,82 +469,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5C47D44D282F8C1200B22F9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Z7HNGC242;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaitovrk.SheasyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sheasy.app/Sheasy";
-			};
-			name = Debug;
-		};
-		5C47D44E282F8C1200B22F9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Z7HNGC242;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaitovrk.SheasyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sheasy.app/Sheasy";
-			};
-			name = Release;
-		};
-		5C47D450282F8C1200B22F9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Z7HNGC242;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaitovrk.SheasyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sheasy;
-			};
-			name = Debug;
-		};
-		5C47D451282F8C1200B22F9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4Z7HNGC242;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaitovrk.SheasyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sheasy;
 			};
 			name = Release;
 		};
@@ -685,24 +489,6 @@
 			buildConfigurations = (
 				5C47D44A282F8C1200B22F9E /* Debug */,
 				5C47D44B282F8C1200B22F9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5C47D44C282F8C1200B22F9E /* Build configuration list for PBXNativeTarget "SheasyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C47D44D282F8C1200B22F9E /* Debug */,
-				5C47D44E282F8C1200B22F9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5C47D44F282F8C1200B22F9E /* Build configuration list for PBXNativeTarget "SheasyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C47D450282F8C1200B22F9E /* Debug */,
-				5C47D451282F8C1200B22F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
